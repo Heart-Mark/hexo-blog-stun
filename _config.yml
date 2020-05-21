@@ -98,7 +98,9 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repository: git@github.com:Heart-Mark/hexo-blog-stun.git
+  branch: master
 
 # algolia search
 algolia:
